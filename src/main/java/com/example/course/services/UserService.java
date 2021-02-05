@@ -58,7 +58,7 @@ public class UserService {
 		}
 		
 		catch(EntityNotFoundException e) {
-			throw new ResourceNotFoundException(id);
+			throw new ResourceNotFoundException(id); 
 		}
 	}
 
